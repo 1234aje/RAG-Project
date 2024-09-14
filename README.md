@@ -81,6 +81,6 @@ streamlit run main.py
 # Workflow
 - **Input Question:** The user provides a question via the Streamlit interface.
 
-- **Similarity Search:** The system uses an **embedding model** to create vector representations of the documents and then performs a **similarity search** using a **vector database** (such as FAISS) to find the most relevant documents.
+- **Similarity Search:** The system uses an **embedding model** to create vector representations of the documents and then performs a **similarity search** using a **vector database** (FAISS) to find the most relevant documents.
 
 - **LLM Processing:**  The relevant documents are passed to the LLM, which generates the final answer.
